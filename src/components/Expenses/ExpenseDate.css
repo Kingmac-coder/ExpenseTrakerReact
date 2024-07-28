@@ -9,6 +9,7 @@
   border-radius: 12px;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
 }
 
 .expense-date__month {
